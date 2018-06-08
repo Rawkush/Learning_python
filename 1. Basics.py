@@ -12,3 +12,10 @@ print("the data entered by user is ", data)
 
 
 
+# learning indents
+
+num=4
+if num%2==0:
+    print("this thepart of the in true condition")
+else:
+    print("this is else part for false condition")
