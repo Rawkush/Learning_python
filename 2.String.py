@@ -36,3 +36,28 @@ ball2='football'
 print('i have a %s, lets play with it',%ball)
 
 print(' the two ball  %s that i have are stolen',%(ball,ball2))
+
+
+#to find where a specific substring is in a string
+
+
+var='learning python seems easy'
+
+var.find('ing')
+
+#counting the occurenece  of a substring
+
+var.count('n')
+
+
+
+
+
+
+
+
+
+
+
+
+
