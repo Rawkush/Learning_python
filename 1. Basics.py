@@ -16,7 +16,7 @@ print("the data entered by user is ", data)
 
 num=4
 if num%2==0:
-    print("this thepart of the in true condition")
+    print("this the part of the in true condition\n")
 else:
     print("this is else part for false condition")
 
@@ -46,4 +46,16 @@ g="""string"""
         #all the strings are same
 
 #NOTE: use triple quote for multiple line string
+
+
+################
+
+#String functions
+
+print(s[2]) #printing the char at 2nd index
+
+#note String is Immutable and so its data cannot be changed
+
+#  s[2]= 'a'  will give error
+
 
