@@ -29,8 +29,21 @@ print("the value of int stored as string is: ",x)
 
 #same goes for float() and complex
 
+#NOTE: data inside complex can be of any numeric type but only numeric data type
 
 c=complex(32,22)
 
 print("complex number is",c)
+
+
+#String
+
+
+s= 'string'
+d="string"
+f='''string'''
+g="""string"""
+        #all the strings are same
+
+#NOTE: use triple quote for multiple line string
 
