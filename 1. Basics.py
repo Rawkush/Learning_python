@@ -19,3 +19,18 @@ if num%2==0:
     print("this thepart of the in true condition")
 else:
     print("this is else part for false condition")
+
+
+#data types conversions
+
+
+x= int('12')
+print("the value of int stored as string is: ",x)
+
+#same goes for float() and complex
+
+
+c=complex(32,22)
+
+print("complex number is",c)
+
