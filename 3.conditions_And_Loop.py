@@ -23,3 +23,27 @@ if amount>100:
     amount=amount-discount
     
 print("your total amount is Rs: ",amount)
+
+
+#using else if condition
+#keyword is elif
+
+
+
+if amount>100:
+    print("Yayy idscount of 10% is appiles")
+    discount=amount*10/100
+    amount=amount-discount
+
+elif amount==1000:
+    print("oops just missed the discount")
+
+elif amount<1000:
+    print("no discoun n t for you")
+
+elif amount>10000:
+    print("discount willbe given 20% on next shopping")
+    
+
+
+
