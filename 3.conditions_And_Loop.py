@@ -43,6 +43,46 @@ elif amount<1000:
 
 elif amount>10000:
     print("discount willbe given 20% on next shopping")
+
+#Learning LOOPS
+
+##while loop
+
+print("printing the number from 0 to 10")
+
+v=0
+while v<=10:
+    print(v)
+
+print("loops ended")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     
 
 
