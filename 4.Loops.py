@@ -20,3 +20,20 @@ for symbol in "internshala":
 
 # s0 for loop start from index 0 of the element and work till the end
 #also auto incremented
+
+
+
+
+#######################################################
+
+
+
+#using else with loops
+
+for symbol in "internshala":
+    print(symbol)
+
+else:                                   # we can do same for while loop
+    print(" we are inside the loop and all elementd are printed")
+
+print("loop ended")
