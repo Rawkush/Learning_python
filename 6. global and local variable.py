@@ -26,3 +26,12 @@ math.pi
 math.radians(180)
 
 math.degree(2*math.pi)
+
+math.exp(2)
+
+math.pow(4,3)
+
+math.log(10)
+
+math.log10(10)
+
