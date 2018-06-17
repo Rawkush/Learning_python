@@ -5,3 +5,15 @@ alpha=10
 bet=20
 gama =30
 print(globals())
+
+#using modules
+
+import random
+
+random.random()
+
+random.randint(1,6)
+
+random.randrange(1,10,2)
+
+random.choice("any sequende")
