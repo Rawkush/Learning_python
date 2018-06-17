@@ -17,3 +17,12 @@ random.randint(1,6)
 random.randrange(1,10,2)
 
 random.choice("any sequende")
+
+
+#math modules
+
+math.pi
+
+math.radians(180)
+
+math.degree(2*math.pi)
