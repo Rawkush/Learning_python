@@ -19,4 +19,5 @@ p=person('ankush','male')
 p2=person('rahul','male')
 p3=person('manoj','male')
 
-person.ShowCount()
+person.ShowCount() #person is the class name so the function is called using the class name not the object
+
