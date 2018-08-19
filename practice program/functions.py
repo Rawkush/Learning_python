@@ -65,9 +65,12 @@ print(w[0])
 print(u[0])
 
 
-
-
-
+#reversing the string
+startmsg = "hello"
+endmsg = ""
+for i in range(0,len(startmsg)):
+      endmsg = startmsg[i] + endmsg
+print(endmsg)
 
 
 
