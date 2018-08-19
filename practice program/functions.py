@@ -1,7 +1,6 @@
 def g(x):
-    
-    (q,d) = (1,0)
 
+    (q,d) = (1,0)
     while q <= x:
         
         (q,d) = (q*10,d+1)
@@ -18,8 +17,7 @@ def h(m,n):
 
 print(h(231,8))
 
-
-
+# composite number program
 def h(n):
     f = 0
     for i in range(1,n+1):
@@ -27,10 +25,35 @@ def h(n):
         f = f + 1
     return(f%2 == 1)
 
-print(h(2))
+print(h(4))
+
+
+def f(m):
+    if m == 0:
+      return(0)
+    else:
+      return(m+f(m-1))
+
+print(f(10))
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
