@@ -67,7 +67,19 @@ for i in range(11,16):
 
 
 
+list_1=[]
+for i in range(1,51):
+  list_1.append(i)
+  
+a, b = input().split()
 
+a=int(a)
+b=int(b)
+
+list_1[a:b]
+
+for i in list:
+  print(i)
 
 
 
