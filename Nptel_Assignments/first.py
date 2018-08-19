@@ -37,11 +37,7 @@ def sumprimes(l):
     return s
 
 def prime(num):
-    print(num)
-
     for i in range(2, int(num/2)+1):
-        print(num%i)
-
         if num%i== 0:
             return False;
             break
@@ -49,7 +45,11 @@ def prime(num):
 
 
 
-
+def test(n):
+	if n%7==0:
+		print('Hipp Hipp Hurrah')
+	else:
+		print('Alas')
 
 
 
