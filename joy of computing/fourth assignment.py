@@ -26,3 +26,13 @@ else:
     
     factorial = factorial*i
   print(factorial)
+
+###nEXT
+
+n=int(input())
+p=[]
+for i in range(n):
+  p.append(int(input()))
+p.sort()
+for i in range(n):
+  print(p[i],end=" ")
