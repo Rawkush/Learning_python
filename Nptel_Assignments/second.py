@@ -33,3 +33,37 @@ def descending(list):
 
 
 #next one
+
+
+def valley(list):
+    n=len(list)
+    loc=list.index(min(list))
+    
+    if(n<5):
+        return False
+    elif(n is 0):
+        return True
+    flag=0
+    flag1=0
+    
+    for i in range(0,n-1):
+            if(list[i+1]<list[i] and i<loc):
+                flag=flag+1
+               
+
+            elif(list[i]>list[i-1] and i>loc):
+                flag1=flag1+1
+            elif(list[i] is list[i+1]):
+                return False
+            
+            else:
+                flag1=flag1+1
+                flag=flag+1
+                
+    if(list[n-1]>list[n-2] and list[n-1]>list[loc]):
+        flag1=flag1+1
+    elif(list[n-1]>list[n-2] and list[n-1]<=list[loc]):
+        flag=flag+1
+        
+    if(flag>=2 and flag1>=2):
+        return True
